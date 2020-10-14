@@ -1,0 +1,71 @@
+body {
+    background-image: url("../images/galaxy.jpg");
+    background-size: no-repeat;
+    background-size: cover;
+  }
+  
+  #container {
+    width: 60%;
+    max-width: 960px;
+    background-color: #342a5e;
+    margin: 0 auto;
+    padding-bottom: 250px;
+  }
+  
+  h1 {
+    color: lightgray;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 50px;
+  }
+  .displays {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .displays:hover {
+    border: ridge 5px black;
+  }
+  
+  #time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+  }
+  #questiondisplay {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+  }
+  
+  hr {
+    border: dotted 2px black ;
+  }
+  .clickit{
+    box-sizing: border-box;
+    width: 250px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    font-size: 2rem;
+    display: block;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+  }
+  .clickit:hover {
+    border: solid 5px black;
+  }
+  
+  #restart {
+    display: none;
+  }
+  
+  #revolvinggifs {
+    text-align: center;
+  }
